@@ -25,7 +25,7 @@ Key findings indicate a decline in sales and quantity sold in 2017, while profit
 The analysis is based on the DataCoSupplyChainDataset, obtained from Kaggle:
 
 🔗 DataCo Smart Supply Chain Dataset
-- Source: Kaggle
+- Source: [Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis/code)
 - Time Period Covered: 2015–2017 (2018 data excluded for consistency)
 - Number of Records: 178396 rows
 - Number of Features: 22 
