@@ -114,7 +114,7 @@ FROM #DataCoSupplyChain;
 
 2. Save the filtering data
 3. Loading the dashboard (pbix file) in Power BI
-- Open Power BI Desktop and go to File > Open to load the existing report ([my_report.pbix](./supplychainPI_Dashboard.pbix)) from the repository.
+- Open Power BI Desktop and go to File > Open to load the existing report ([my_report.pbix](suppychainPI_Dashboard.pbix)) from the repository.
 
 
 
