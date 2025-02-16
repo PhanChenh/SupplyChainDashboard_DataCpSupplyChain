@@ -1,4 +1,18 @@
-# Project Title: Supply Chain Performance & Trends Analysis (2015-2017)
+# Project Title: Tracking Trends in Supply Chain –  A Sales and Profit Review (2015-2017) 
+
+## Table of Contents (Optional)
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Analysis Approach](#analysis-approach)
+- [Key Findings](#key-findings)
+- [How to Use](#how-to-use)
+- [Technologies Used](#technologies-used)
+- [Results & Visualizations](#results--visualizations)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+
 
 ## Overview: 
 
@@ -89,6 +103,7 @@ It’s possible that the company focused more on acquiring new customers rather 
  + Market strategy shift: Investigate if the company’s strategy in 2017 shifted toward more premium, higher-priced products and what the impact of this strategy was on profit and quantity sold.
  + Operational changes: Check if there were any operational or supply chain changes that impacted the ability to fulfill orders and maintain consistent product availability in 2017.
 
+## Contact: 
 📌 Prepared by: Phan Chenh
 
 📅 Date: [Insert Date]
