@@ -72,6 +72,49 @@ Based on the analysis, recommendations were provided to optimize the supply chai
 -	Product Mix Shift: The company shifted towards selling higher-priced, lower-quantity products in 2017. This shift may have insulated profits from the impact of declining quantity sold but raises concerns about customer purchase behaviour and retention.
 
 ## How to use
+1. SQL Code for Data Filtering
+
+The following SQL query filters out 2018 data:
+
+```sql
+-- Create a temporary table and filter out 2018, ensuring temporal consistency in insights and avoiding bias from incomplete data.
+SELECT * 
+INTO #DataCoSupplyChain
+FROM DataCoSupplyChainDataset
+WHERE YEAR(order_date_DateOrders) <> 2018;
+```
+
+```sql
+-- filter column for power BI project
+SELECT 
+		Days_for_shipping_real,
+		Days_for_shipment_scheduled,
+		Delivery_Status,
+		Late_delivery_risk,
+		Shipping_Mode,
+		Customer_Fname,
+		Customer_Id,
+		Customer_Lname,
+		Customer_Segment,
+		Customer_State,
+		FORMAT(order_date_DateOrders, 'M/d/yyyy h:mm:ss tt') AS DateOrders,
+		Order_Id,
+		Order_Item_Discount_Rate,
+		Order_Item_Quantity,
+		Sales,
+		Order_Item_Total,
+		Order_Profit_Per_Order,
+		Order_Item_Discount,
+		Order_Region,
+		Category_Name,
+		Product_Name,
+		Product_Price
+FROM #DataCoSupplyChain;
+```
+
+2. Save the filtering data
+3. Loading the dashboard (pbix file) in Power BI
+- Open Power BI Desktop and go to File > Open to load the existing report ([my_report.pbix](./supplychainPI_Dashboard.pbix)) from the repository.
 
 
 
