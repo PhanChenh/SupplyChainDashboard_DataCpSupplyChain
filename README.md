@@ -1,6 +1,6 @@
 # Project Title: Tracking Trends in Supply Chain –  A Sales and Profit Review (2015-2017) 
 
-## Table of Contents (Optional)
+## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Objective](#objective)
