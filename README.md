@@ -88,3 +88,11 @@ It’s possible that the company focused more on acquiring new customers rather 
 
  + Market strategy shift: Investigate if the company’s strategy in 2017 shifted toward more premium, higher-priced products and what the impact of this strategy was on profit and quantity sold.
  + Operational changes: Check if there were any operational or supply chain changes that impacted the ability to fulfill orders and maintain consistent product availability in 2017.
+
+📌 Prepared by: Phan Chenh
+
+📅 Date: [Insert Date]
+
+📂 Dataset: DataCoSupplyChainDataset (Kaggle)
+
+🔍 Tools Used: SQL, Power BI
