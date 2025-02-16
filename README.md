@@ -114,9 +114,39 @@ FROM #DataCoSupplyChain;
 
 2. Save the filtering data
 3. Loading the dashboard (pbix file) in Power BI
-- Open Power BI Desktop and go to File > Open to load the existing report ([my_report.pbix](suppychainPI_Dashboard.pbix)) from the repository.
+- Open Power BI Desktop and go to File > Open to load the existing dashboard ([my_dashboard.pbix](suppychainPI_Dashboard.pbix)) from the repository.
+
+## Technologies Used
+- SQL code: Excluded 2018 data to ensure consistency and avoid bias due to incomplete records.
+- Power BI: Used for data visualization and report creation. Various charts, graphs, and slicers were implemented to analyze key supply chain metrics.
+- DAX (Data Analysis Expressions): Used to calculate important metrics like sales growth, customer retention, and profit margins.
+
+## Results & Visualizations
+
+![salesperformance](https://github.com/user-attachments/assets/4b89a227-3e56-4c56-b926-a71fc8ca021e)
+Figure 1: Sales and profit performance
+
+Findings: 
+- October-December 2017 sales dropped significantly, with October sales reaching only half of 2016 levels.
+- Total quantity sold in Sep-Dec 2017 was just 1/3 of 2016.
+- Profit and Orders Trends: Despite the drop in sales and quantity, the total number of orders increased by around 18% each month from September to December 2017, which raises questions about what caused the increase in orders without impacting profit significantly.
+- Profit by customer segment remained relatively stable year-over-year, which is unusual given the other declines.
 
 
+![discount](https://github.com/user-attachments/assets/85896391-a2c4-4c41-b0e5-4146981bf577)
+Figure 2: Discount and price performance 
+
+Findings: Price and discount rate don’t seem to be the main factors causing these anomalies.
+
+![customer](https://github.com/user-attachments/assets/a4817c8c-b6fe-4156-906a-bb470bbfba72)
+Figure 3: Customer performance 
+
+Possible Question: Is the company failing to retain customers? If so, why is the profit stable despite lower repeat purchases? 
+
+![product](https://github.com/user-attachments/assets/df7fcb97-10b2-4a85-ac38-72b74680f10a)
+Figure 4: Product performance 
+
+Findings: In 2017, the product mix shifted toward newer, higher-priced products, which explains the lower quantity sold but potentially stable profits from these high-priced items. 
 
 ---
 ### Key Insights from 2016 vs. 2015
