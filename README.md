@@ -152,4 +152,4 @@ Findings: In 2017, the product mix shifted toward newer, higher-priced products,
 
 📧 Email: pearriperri@gmail.com
 
-🔗 LinkedIn | Portfolio
+🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
