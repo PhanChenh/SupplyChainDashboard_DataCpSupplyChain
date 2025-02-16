@@ -1,4 +1,4 @@
-# Project Title: Supply Chain Dashboard Report (2015-2017)
+# Project Title: Supply Chain Performance & Trends Analysis (2015-2017)
 
 ## Overview: 
 
