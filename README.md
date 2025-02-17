@@ -9,7 +9,7 @@
 - [How to Use](#how-to-use)
 - [Technologies Used](#technologies-used)
 - [Results & Visualizations](#results--visualizations)
-- [Contributing](#contributing)
+- [Recommendation](#recommendation)
 - [Contact](#contact)
 
 ## Overview: 
