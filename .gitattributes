@@ -2,7 +2,3 @@
 *.sql linguist-language=sql
 *.sql text
 
-*.md linguist-detectable=true
-*.md linguist-language=Markdown
-*.md text
-
