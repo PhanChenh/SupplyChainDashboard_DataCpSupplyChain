@@ -87,35 +87,6 @@ INTO #DataCoSupplyChain
 FROM DataCoSupplyChainDataset
 WHERE YEAR(order_date_DateOrders) <> 2018;
 ```
-
-```sql
--- filter column for power BI project
-SELECT 
-		Days_for_shipping_real,
-		Days_for_shipment_scheduled,
-		Delivery_Status,
-		Late_delivery_risk,
-		Shipping_Mode,
-		Customer_Fname,
-		Customer_Id,
-		Customer_Lname,
-		Customer_Segment,
-		Customer_State,
-		FORMAT(order_date_DateOrders, 'M/d/yyyy h:mm:ss tt') AS DateOrders,
-		Order_Id,
-		Order_Item_Discount_Rate,
-		Order_Item_Quantity,
-		Sales,
-		Order_Item_Total,
-		Order_Profit_Per_Order,
-		Order_Item_Discount,
-		Order_Region,
-		Category_Name,
-		Product_Name,
-		Product_Price
-FROM #DataCoSupplyChain;
-```
-
 2. Save the filtering data
 3. Loading the dashboard (pbix file) in Power BI
 - Open Power BI Desktop and go to File > Open to load the existing dashboard ([my_dashboard.pbix](suppychainPI_Dashboard.pbix)) from the repository.
@@ -127,7 +98,7 @@ FROM #DataCoSupplyChain;
 
 ## Results & Visualizations
 
-![salesperformance](https://github.com/user-attachments/assets/4b89a227-3e56-4c56-b926-a71fc8ca021e)
+![sales](https://github.com/user-attachments/assets/ff473900-e76e-4a54-98d7-ba37f2e99ec6)
 Figure 1: Sales and profit performance
 
 Findings: 
