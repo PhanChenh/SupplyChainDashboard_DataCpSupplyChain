@@ -6,7 +6,7 @@
 - [Objective](#objective)
 - [Analysis Approach](#analysis-approach)
 - [Key Findings](#key-findings)
-- [How to Use](#how-to-use)
+- [How to run code](#how-to-run-code)
 - [Technologies Used](#technologies-used)
 - [Results & Visualizations](#results--visualizations)
 - [Recommendation](#recommendation)
@@ -75,7 +75,7 @@ Based on the analysis, recommendations were provided to optimize the supply chai
 -	Effect of Discounts: Although discounts slightly increased profit impact in 2016, the overall trend suggests that discounting may have led to lower profit margins. However, the 2017 data indicates that discount strategies were not a major factor in maintaining profitability.
 -	Product Mix Shift: The company shifted towards selling higher-priced, lower-quantity products in 2017. This shift may have insulated profits from the impact of declining quantity sold but raises concerns about customer purchase behaviour and retention.
 
-## How to use
+## How to run code
 1. SQL Code for Data Filtering
 
 The following SQL query filters out 2018 data:
