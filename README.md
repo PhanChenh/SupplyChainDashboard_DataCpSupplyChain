@@ -48,19 +48,23 @@ This analysis aims to understand year-over-year changes in key supply chain metr
 
 The dataset from the DataCoSupplyChainDataset was filtered to exclude data from 2018, as it was found to be inconsistent and would introduce bias into the analysis. This step ensured temporal consistency across the years 2015–2017.
 
-2. Data Exploration and Visualization
+2. Data Modeling & ERD:
+
+Relationships between tables were established, creating a clear structure to link tables together as seen in [supplychain_ERD](supplychain_ERD.png)
+
+3. Data Exploration and Visualization
 
 Using Power BI, key supply chain metrics such as sales, profit, quantity sold, and customer behavior were analyzed. Several visualizations were created, including line charts, bar graphs, and pie charts, to illustrate trends over time and highlight any anomalies in the data.
 
-3. Metric Calculation Using DAX
+4. Metric Calculation Using DAX
 
 Relevant metrics, such as year-over-year sales growth, customer retention rates, and average profit per order, were calculated using DAX (Data Analysis Expressions) to gain deeper insights. These metrics provided a clearer understanding of trends and helped identify areas for improvement in the supply chain.
 
-4. Interpretation and Insights
+5. Interpretation and Insights
 
 The results were interpreted to uncover key insights, such as the decline in sales and stable profit margins in 2017, as well as the potential causes for lower repeat purchase rates.
 
-5. Recommendations
+6. Recommendations
 
 Based on the analysis, recommendations were provided to optimize the supply chain strategy, focusing on improving customer engagement, refining product offerings, and enhancing demand forecasting.
 
