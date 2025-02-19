@@ -137,10 +137,6 @@ Balance higher-priced products with mid-range options to maintain profit margins
 
 Use data-driven discounts based on customer segments, product performance, and time-sensitive promotions to protect margins.
 
-4. Enhance Demand Forecasting
-
-Improve forecasting tools and inventory management to stabilize sales fluctuations, especially during peak months.
-
 5. Analyze Seasonal Trends
 
 Investigate external factors (e.g., marketing, economy, competitors) affecting sales drops (Oct–Dec 2017) and adjust strategies accordingly.
