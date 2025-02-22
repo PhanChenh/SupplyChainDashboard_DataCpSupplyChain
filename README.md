@@ -98,7 +98,8 @@ WHERE YEAR(order_date_DateOrders) <> 2018;
 
 ## Results & Visualizations
 
-![sales](https://github.com/user-attachments/assets/c9f13555-cdda-4aa8-a919-e754c8173455)
+![Screenshot 2025-02-22 155650](https://github.com/user-attachments/assets/782a2a04-6cd7-4d86-92f5-aac293786272)
+
 
 Figure 1: Sales and profit performance
 
@@ -108,19 +109,22 @@ Findings:
 - Profit and Orders Trends: Despite the drop in sales and quantity, the total number of orders increased by around 18% each month from September to December 2017, which raises questions about what caused the increase in orders without impacting profit significantly.
 - Profit by customer segment remained relatively stable year-over-year, which is unusual given the other declines.
 
-![discount](https://github.com/user-attachments/assets/9ce1813e-58b7-48a0-b225-d4a0b58ea809)
+![Screenshot 2025-02-22 155738](https://github.com/user-attachments/assets/0eaf5bad-a69f-44c3-9532-f819eff7a395)
+
 
 Figure 2: Discount and price performance 
 
 Findings: Price and discount rate don’t seem to be the main factors causing these anomalies.
 
-![customer](https://github.com/user-attachments/assets/7a740da9-a3e9-492f-9935-4a2200b8ba76)
+![Screenshot 2025-02-22 155754](https://github.com/user-attachments/assets/2f6dd886-536d-4218-8011-8e475494e778)
+
 
 Figure 3: Customer performance 
 
 Possible Question: Is the company failing to retain customers? If so, why is the profit stable despite lower repeat purchases? 
 
-![product](https://github.com/user-attachments/assets/ea8ca34e-4c5e-4fb1-b138-456e876bde75)
+![Screenshot 2025-02-22 155806](https://github.com/user-attachments/assets/a980b160-b7c1-433f-ae42-5827a372ec14)
+
 
 Figure 4: Product performance 
 
