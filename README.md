@@ -98,8 +98,9 @@ WHERE YEAR(order_date_DateOrders) <> 2018;
 
 ## Results & Visualizations
 
-![Screenshot 2025-02-22 155650](https://github.com/user-attachments/assets/782a2a04-6cd7-4d86-92f5-aac293786272)
+Interactive Dashboard: [SupplyChain_Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmQ0MGUyMTgtMjUxNy00NDAxLThmMDYtZTU0YTk3ZjY4ZTRlIiwidCI6IjFkYTAyNjFjLTQ1ZjktNGI5MS04N2JiLTlkMGUzNzJlMmYwNiJ9)
 
+![Screenshot 2025-02-22 155650](https://github.com/user-attachments/assets/782a2a04-6cd7-4d86-92f5-aac293786272)
 
 Figure 1: Sales and profit performance
 
